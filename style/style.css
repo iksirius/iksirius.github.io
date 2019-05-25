@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "VitesseSans-Bold";
+    src: url("./fonts/VitesseSans-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/VitesseSans-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("./fonts/VitesseSans-Bold.woff2") format("woff2"), /* Super Modern Browsers */
+         url("./fonts/VitesseSans-Bold.woff") format("woff"), /* Pretty Modern Browsers */
+         url("./fonts/VitesseSans-Bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("./fonts/VitesseSans-Bold.svg#svgFontName") format("svg"); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal
+  }
+  
+
+html, body {
+    background-color: #005499;
+    background-image: url("../images/jersey_bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+  
+.header {
+    color: #fff;
+    font-family: "VitesseSans-Bold", "Helvetica", "Arial";
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.sirius-logo {
+    width: 75px;
+}
+
+.container {
+    width: 1000px;
+}
+
+.song {
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.song-header {
+    font-family: "VitesseSans-Bold", "Helvetica", "Arial";
+    text-transform: uppercase;
+}
+
+.min-100 {
+    min-height: 100%;
+}
+
+.list-group-item-action {
+    background-color: #fff;
+    color: #0059a1;
+    font-family: "VitesseSans-Bold", "Helvetica", "Arial";
+}
+
+.link-unstyled:visited,
+.link-unstyled:hover,
+.link-unstyled:active,
+.link-unstyled:focus,
+.link-unstyled:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+}
