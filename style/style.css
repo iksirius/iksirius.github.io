@@ -9,7 +9,6 @@
     font-weight: bold;
     font-style: normal
   }
-  
 
 html, body {
     background-color: #005499;
@@ -19,21 +18,20 @@ html, body {
     background-size: cover;
     height: 100%;
 }
-  
+
 .header {
     color: #fff;
     font-family: "VitesseSans-Bold", "Helvetica", "Arial";
-    font-size: 45px;
-    line-height: 45px;
     text-transform: uppercase;
 }
 
-.sirius-logo {
-    width: 75px;
+.header h1 {
+    font-size: 30px;
+    line-height: 30px;
 }
 
-.container {
-    width: 1000px;
+.sirius-logo {
+    width: 45px;
 }
 
 .song {
@@ -77,3 +75,19 @@ html, body {
     padding: inherit;
     vertical-align: inherit;
 }
+
+@media (min-width: 768px) {
+
+    .header h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .sirius-logo {
+        width: 75px;
+    }
+
+    .container {
+        width: 1000px;
+    }
+}
+
