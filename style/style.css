@@ -19,6 +19,25 @@ html, body {
     height: 100%;
 }
 
+.nav {
+    background-color: #000;    
+    border-radius: 0.25rem;
+    color: #fff;
+    font-family: "VitesseSans-Bold", "Helvetica", "Arial";
+}
+
+.nav-link:visited,
+.nav-link:active,
+.nav-link:focus {
+    color: #fff;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:active:hover {
+    color: #ffe00f;
+}
+
 .header {
     color: #fff;
     font-family: "VitesseSans-Bold", "Helvetica", "Arial";
@@ -58,28 +77,6 @@ html, body {
     background-color: #fff;
     color: #0059a1;
     font-family: "VitesseSans-Bold", "Helvetica", "Arial";
-}
-
-.link-unstyled:visited,
-.link-unstyled:hover,
-.link-unstyled:active,
-.link-unstyled:focus,
-.link-unstyled:active:hover {
-    font-style: inherit;
-    color: inherit;
-    background-color: transparent;
-    font-size: inherit;
-    text-decoration: none;
-    font-variant: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    font-family: inherit;
-    border-radius: inherit;
-    border: inherit;
-    outline: inherit;
-    box-shadow: inherit;
-    padding: inherit;
-    vertical-align: inherit;
 }
 
 .videoWrapper {
