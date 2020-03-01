@@ -64,6 +64,11 @@ html, body {
     text-transform: uppercase;
 }
 
+.melody {
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
 .lyrics pre {
     font-family: "Helvetica", "Arial";
     font-size: 1rem;
